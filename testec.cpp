@@ -1,11 +1,9 @@
 #include <iostream>
 #include <string> 
-#include <locale>
 
 using namespace std;
 
 int main() {
-    setlocale(LC_ALL, "");
     cout << "O Byte está com fome?\n";
     string fome;
     cin >> fome;
@@ -53,3 +51,4 @@ int main() {
 
     
 }
+
